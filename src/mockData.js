@@ -1,5 +1,5 @@
-export const pokeApi = [
-    {
+export const pokeApi = {
+    "1": {
         name: "bulbasaur",
         id: 1,
         species: {
@@ -39,7 +39,7 @@ export const pokeApi = [
             front_shiny_female: null,
         },
     },
-    {
+    "2": {
         name: "ivysaur",
         id: 2,
         species: {
@@ -79,7 +79,7 @@ export const pokeApi = [
             front_shiny_female: null,
         },
     },
-    {
+    "4": {
         name: "charmander",
         id: 4,
         species: {
@@ -112,7 +112,7 @@ export const pokeApi = [
             front_shiny_female: null,
         },
     },
-    {
+    "7": {
         name: "squirtle",
         id: 7,
         species: {
@@ -145,4 +145,4 @@ export const pokeApi = [
             front_shiny_female: null,
         },
     },
-];
+};
